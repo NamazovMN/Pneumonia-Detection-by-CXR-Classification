@@ -44,4 +44,8 @@ The following image expresses the Confusion Matrix of Cascade Model through 3 cl
  <img src="vb_4_acc.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
  </p>
  
+Additionally, confusion matrix is represented by the following image:
 
+<p align="center">
+<img src="image.png" width="300" height="300">
+</p>
