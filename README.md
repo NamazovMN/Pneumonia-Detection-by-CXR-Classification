@@ -29,6 +29,6 @@ At the end, after collecting satisfactory training results, I evaluated data in 
  In the following images you can see Accuracy and Loss results of Pneumonia Detection (NP-CNN) model:
  
  <p align="center">
- <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="400" height="250">  <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" scale='1/1.5'>
+ <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="400" height="250">  <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" scale='1/2.5'>
  </p>
  
