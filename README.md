@@ -32,18 +32,24 @@ At the end, after collecting satisfactory training results, I evaluated data in 
  <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="400" height="350">  <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="400" height="350">
  </p>
 
-The following image expresses the Confusion Matrix of Cascade Model through 3 classes:
-<p align="center">
-<img src="image.png" width="300" height="300">
- </p>
- 
- ### Second Approach
- In the second approach, I directly collected results and evaluated results according to F1-score metrics. Following images express the train and test loss and accuracy results.
+On the other hand you can see performance results of the second model of cascade system for 'Viral-Bacterial classification' task (VB-CNN) from the following images:
 
 <p align="center">
  <img src="vb_4_acc.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
  </p>
  
+
+The following image expresses the Confusion Matrix of Cascade Model through 3 classes:
+<p align="center">
+<img src="image.png" width="300" height="300">
+ </p>
+ 
+ 
+ 
+ ### Second Approach
+ In the second approach, I directly collected results and evaluated results according to F1-score metrics. Following images express the train and test loss and accuracy results.
+
+
 Additionally, confusion matrix is represented by the following image:
 
 <p align="center">
