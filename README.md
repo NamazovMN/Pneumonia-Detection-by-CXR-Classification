@@ -27,7 +27,6 @@ At the end, after collecting satisfactory training results, I evaluated data in 
  * After that, I collected data were predicted as Pneumonia and sent them to prediction phase of  the second model (Pneumonia Kind Detection)
  * As a result, collecting data were used to compute confusion matrix and F1 score.
  In the following images you can see Accuracy and Loss results of Pneumonia Detection (NP-CNN) model:
- ![Figure 1: NP-CNN accuracy](https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png 'Train and Test accuracy results of NP-CNN model')
- ![Figure2](https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/0e50cfa6a83622c2e392e7f66bb7710ef17e7f9d/np_4_loss.png 'Train and Test Loss results of NP-CNN model')
+ <img src="(https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png)]" width="5" height="5">  <img src="[(https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png)]" width="5" height="5">
  
  
