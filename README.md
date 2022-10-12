@@ -28,6 +28,6 @@ At the end, after collecting satisfactory training results, I evaluated data in 
  * As a result, collecting data were used to compute confusion matrix and F1 score.
  In the following images you can see Accuracy and Loss results of Pneumonia Detection (NP-CNN) model:
  
- <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="300" height="300">  <img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="300" height="300">
+ <img align='right' src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="300" height="300">  <img alighn='right' src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="300" height="300">
  
  
