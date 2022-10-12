@@ -36,4 +36,12 @@ The following image expresses the Confusion Matrix of Cascade Model through 3 cl
 <p align="center">
 <img src="image.png" width="300" height="300">
  </p>
+ 
+ ### Second Approach
+ In the second approach, I directly collected results and evaluated results according to F1-score metrics. Following images express the train and test loss and accuracy results.
+
+<p align="center">
+ <img src="vb_4_acc.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
+ </p>
+ 
 
