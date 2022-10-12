@@ -33,7 +33,7 @@ At the end, after collecting satisfactory training results, I evaluated data in 
  </p>
 
 The following image expresses the Confusion Matrix of Cascade Model through 3 classes:
-
-<img src="image.png" width="400" height="350">
+<p alighn="center">
+<img src="image.png" width="300" height="300">
  </p>
 
