@@ -26,6 +26,6 @@ At the end, after collecting satisfactory training results, I evaluated data in 
  * First of all I evaluated all dataset in order to see classification predictions on the first task (Pneumonia Detection)
  * After that, I collected data were predicted as Pneumonia and sent them to prediction phase of  the second model (Pneumonia Kind Detection)
  * As a result, collecting data were used to compute confusion matrix and F1 score.
- In the following images you can see Accuracy and Loss results of Pneumonia Detection (NP-CNN) and Type of Pneumonia Detection (VB-CNN) models.
- ![Figure 1: Samples from Vocabulary and Label Encodings](https://github.com/NamazovMN/BIO-classifier/blob/master/Screenshot%20from%202022-10-02%2014-07-49.png)
+ In the following images you can see Accuracy and Loss results of Pneumonia Detection (NP-CNN) model:
+ ![Figure 1: NP-CNN accuracy](https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/master/accuracy_4.png)
  ![Figure 1: Samples from Vocabulary and Label Encodings](https://github.com/NamazovMN/BIO-classifier/blob/master/Screenshot%20from%202022-10-02%2014-07-49.png)
