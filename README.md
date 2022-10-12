@@ -34,6 +34,6 @@ At the end, after collecting satisfactory training results, I evaluated data in 
 
 The following image expresses the Confusion Matrix of Cascade Model through 3 classes:
 
-<img src="https://github.com/NamazovMN/Pneumonia-Detection-by-CXR-Classification/blob/8de2905d88074bb6f58f86182fa3b90225d34acc/np_4_acc.png" width="400" height="350">
+<img src="image.png" width="400" height="350">
  </p>
 
