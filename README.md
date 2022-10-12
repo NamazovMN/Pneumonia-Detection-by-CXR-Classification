@@ -49,3 +49,10 @@ Additionally, confusion matrix is represented by the following image:
 <p align="center">
 <img src="DirectConfusion.png" width="300" height="300">
 </p>
+
+### Comparison
+As a result, it is easy to see that both models performed very similarly that F1 scores are very close to each other. The following table expresses Micro and Macro averaged F1-scores of bot models' results.
+
+<p align="center">
+<img src="F1_scores.png" width="200" height="100">
+</p>
