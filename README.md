@@ -32,7 +32,7 @@ For this model, we use PH model's dataset, in wich number of healthy and Pneumon
 On the other hand you can see performance results of the second model of cascade system for 'Viral-Bacterial classification' task (VB-CNN) from the following images:
 
 <p align="center">
- <img src="train_results/experiment_1/accuracy_plot.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
+ <img src="train_results/experiment_1/ph/accuracy_plot.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
  </p>
  
 
