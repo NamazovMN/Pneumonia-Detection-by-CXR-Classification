@@ -27,7 +27,7 @@ Following figures depict loss and accuracy graphs of the approach. Even though r
 Additionally, the following figure depicts confusion matrix, which was generated on uniformly distributed dataset with 3 labels:
 
 <p align="center">
-<img src="train_results/experiment_1/om/confusion_matrix.png" width="220" height="250">
+<img src="train_results/experiment_1/om/confusion_matrix.png" width="250" height="220">
 </p>
 ### Second Approach
 For this model, we use PH model's dataset, in wich number of healthy and Pneumonia (we did not keep pneumonia sorts uniformed here) data are equal. Consufion matrix and F1 score are computed manually, since there is not such third-party function to compute F1 score or to generate confusion matrix for this kind of task. Evaluation is done in the following manner:
@@ -49,19 +49,13 @@ On the other hand you can find performance results of VB model, which are depict
 
 Following figures depict confusion matricces for PH and VB models, respectively:
 <p align="center">
-<img src="train_results/experiment_1/ph/confusion_matrix.png" width="220" height="250">  <img src="train_results/experiment_1/vb/confusion_matrix.png" width="220" height="250">
+<img src="train_results/experiment_1/ph/confusion_matrix.png" width="250" height="220">  <img src="train_results/experiment_1/vb/confusion_matrix.png" width="250" height="220">
  </p> 
  
- 
- ### Second Approach
- In the second approach, I directly collected results and evaluated results according to F1-score metrics. Following images express the train and test loss and accuracy results.
- 
- The following images express loss and accuracy performance of the direct model, in which image classification is done for 3 classes:
- 
+At the end of evaluation results for the second approach, we provide confusion matrix of cascade model by following figure:
 <p align="center">
- <img src="om_4_loss.png" width="400" height="350">  <img src="om_4_acc.png" width="400" height="350">
- </p>
- 
+<img src="train_results/experiment_1/om/confusion_matrix_cascade.png" width="250" height="220">  
+ </p> 
 
 Additionally, confusion matrix is represented by the following image:
 
