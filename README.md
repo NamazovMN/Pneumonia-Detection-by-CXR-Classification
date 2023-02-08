@@ -24,11 +24,10 @@ Following figures depict loss and accuracy graphs of the approach. Even though r
  <img src="train_results/experiment_1/om/loss_plot.png" width="400" height="350">  <img src="train_results/experiment_1/om/accuracy_plot.png" width="400" height="350">
  </p>
  
-
-Additionally, confusion matrix is represented by the following image:
+Additionally, the following figure depicts confusion matrix, which was generated on uniformly distributed dataset with 3 labels:
 
 <p align="center">
-<img src="DirectConfusion.png" width="300" height="300">
+<img src="train_results/experiment_1/om/confusion_matrix.png" width="300" height="300">
 </p>
 ### Second Approach
 For this model, we use PH model's dataset, in wich number of healthy and Pneumonia (we did not keep pneumonia sorts uniformed here) data are equal. Consufion matrix and F1 score are computed manually, since there is not such third-party function to compute F1 score or to generate confusion matrix for this kind of task. Evaluation is done in the following manner:
