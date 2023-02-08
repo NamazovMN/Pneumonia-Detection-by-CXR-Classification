@@ -31,12 +31,14 @@ Additionally, the following figure depicts confusion matrix, which was generated
 </p>
 ### Second Approach
 For this model, we use PH model's dataset, in wich number of healthy and Pneumonia (we did not keep pneumonia sorts uniformed here) data are equal. Consufion matrix and F1 score are computed manually, since there is not such third-party function to compute F1 score or to generate confusion matrix for this kind of task. Evaluation is done in the following manner:
+
  * PH images are inferred by PH model and images are collected according to their actual label and prediction label;
  * Images which were classified as Pneumonia at the first step, are fed into VB model in order to detect the kind of Pneumonia disease. As we did at the first step, prediction results are collected according to their actual and prediction variable.
  * Using this information was collected through 2 steps, we generate confusion matrix and compute F1-score accordingly.
  
+Following figures depict loss and accuracy graphs of PH model:
  <p align="center">
- <img src="np_4_loss.png" width="400" height="350">  <img src="np_4_acc.png" width="400" height="350">
+<img src="train_results/experiment_1/ph/loss_plot.png" width="250" height="200">  <img src="train_results/experiment_1/ph/accuracy_plot.png" width="250" height="200">
  </p>
 
 On the other hand you can see performance results of the second model of cascade system for 'Viral-Bacterial classification' task (VB-CNN) from the following images:
