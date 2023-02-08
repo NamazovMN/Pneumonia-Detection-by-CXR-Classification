@@ -21,13 +21,13 @@ The second approach works as 'divide and conquer' idea. It includes two CNN mode
 The first approach is simple mult-label classification task, so that evaluation is simple as its kinds. During training session we also evaluate the model over development dataset. Additionally, at each epoch F1-score is also computed. After the training, the model parameters with the best F1-score is used for generating the confusion matrix.
 Following figures depict loss and accuracy graphs of the approach. Even though result is satisfactory, we will improve the results in future.
 <p align="center">
- <img src="train_results/experiment_1/om/loss_plot.png" width="400" height="350">  <img src="train_results/experiment_1/om/accuracy_plot.png" width="400" height="350">
+ <img src="train_results/experiment_1/om/loss_plot.png" width="250" height="200">  <img src="train_results/experiment_1/om/accuracy_plot.png" width="250" height="200">
  </p>
  
 Additionally, the following figure depicts confusion matrix, which was generated on uniformly distributed dataset with 3 labels:
 
 <p align="center">
-<img src="train_results/experiment_1/om/confusion_matrix.png" width="300" height="300">
+<img src="train_results/experiment_1/om/confusion_matrix.png" width="250" height="250">
 </p>
 ### Second Approach
 For this model, we use PH model's dataset, in wich number of healthy and Pneumonia (we did not keep pneumonia sorts uniformed here) data are equal. Consufion matrix and F1 score are computed manually, since there is not such third-party function to compute F1 score or to generate confusion matrix for this kind of task. Evaluation is done in the following manner:
@@ -41,12 +41,11 @@ Following figures depict loss and accuracy graphs of PH model:
 <img src="train_results/experiment_1/ph/loss_plot.png" width="250" height="200">  <img src="train_results/experiment_1/ph/accuracy_plot.png" width="250" height="200">
  </p>
 
-On the other hand you can see performance results of the second model of cascade system for 'Viral-Bacterial classification' task (VB-CNN) from the following images:
+On the other hand you can find performance results of VB model, which are depicted by the following figures:
 
 <p align="center">
- <img src="train_results/experiment_1/ph/accuracy_plot.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
- </p>
- 
+<img src="train_results/experiment_1/vb/loss_plot.png" width="250" height="200">  <img src="train_results/experiment_1/vb/accuracy_plot.png" width="250" height="200">
+ </p> 
 
 The following image expresses the Confusion Matrix of Cascade Model through 3 classes:
 <p align="center">
