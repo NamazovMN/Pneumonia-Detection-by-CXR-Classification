@@ -20,7 +20,7 @@ The second approach works as 'divide and conquer' idea. It includes two CNN mode
 ### First Approach
 The first approach is simple mult-label classification task, so that evaluation is simple as its kinds. During training session we also evaluate the model over development dataset. Additionally, at each epoch F1-score is also computed. After the training, the model parameters with the best F1-score is used for generating the confusion matrix.
 ### Second Approach
-For this model, we use PH model's dataset, in wich number of healthy and Pneumonia (we did not keep pneumonia sorts uniformed here) data are equal. Consufion matrix and F1 score is computed manually, since there is not such third-party function to compute F1 score or to generate confusion matrix for this kind of task. Evaluation is done in the following manner:
+For this model, we use PH model's dataset, in wich number of healthy and Pneumonia (we did not keep pneumonia sorts uniformed here) data are equal. Consufion matrix and F1 score are computed manually, since there is not such third-party function to compute F1 score or to generate confusion matrix for this kind of task. Evaluation is done in the following manner:
  * PH images are inferred by PH model and images are collected according to their actual label and prediction label;
  * Images which were classified as Pneumonia at the first step, are fed into VB model in order to detect the kind of Pneumonia disease. As we did at the first step, prediction results are collected according to their actual and prediction variable.
  * Using this information was collected through 2 steps, we generate confusion matrix and compute F1-score accordingly.
@@ -32,7 +32,7 @@ For this model, we use PH model's dataset, in wich number of healthy and Pneumon
 On the other hand you can see performance results of the second model of cascade system for 'Viral-Bacterial classification' task (VB-CNN) from the following images:
 
 <p align="center">
- <img src="vb_4_loss.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
+ <img src="train_results/experiment_1/accuracy_plot.png" width="400" height="350">  <img src="vb_4_acc.png" width="400" height="350">
  </p>
  
 
