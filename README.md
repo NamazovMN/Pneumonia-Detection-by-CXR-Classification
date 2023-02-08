@@ -11,22 +11,19 @@ Main objective of the project is to detect Pneumonia disease by Chest XRay (CXR)
 In this project two different approaches were applied in order to detect Pneumonia disease by training on datasets of Chest X-Ray images. While the first model is used to detect the pneumonia disease,
 the latter is used to detect the kind of it. Thus, we can call our model as Cascade CNN model for CXR classification.
 
-## Applicational Idea
+## Idea
 ### First Approach
-Main approach is to build two different Convolutional Neural Network with diverse but related tasks. The first CNN model is used to detect pneumonia disease through Chest X-Ray (CXR) images dataset. On the other hand,
-the second CNN model is used to define whether pneumonia is bacterial or viral. The latter model was trained on the pneumonia labelled dataset of the same dataset. Thus we can see the first model could see more data than the second one.
-
+For the first approach, one Convolutional Neural Network was developed to classify CXR images into Viral-, Bacterial-Pneumonia and Healthy classes. Thus, it is called one model since, all classification is done explicitly. In other words, model handles classification task with images of 3 classes.
 ### Second Approach
-I handled the project in 3 class classification fashion where labels were healthy, bacterial-pneumonia and viral-pneumonia, in the second approach. This model is simpler than the first one, since I developed only one model and
-evaluated whole data based on its parameters
-
+The second approach works as 'divide and conquer' idea. It includes two CNN models. While the first one is used to classify CXR images into Pneumonia and Healthy classes (PH model), the latter is used for classifying pneumonia labelled images into Viral- and Bacterial-Pneumonia classes (VB model). Thus, we call the second approach as Cascade Model.
 ## Evaluation and Results
 ### First Approach
-At the end, after collecting satisfactory training results, I evaluated data in following steps:
- * First of all I evaluated all dataset in order to see classification predictions on the first task (Pneumonia Detection)
- * After that, I collected data were predicted as Pneumonia and sent them to prediction phase of  the second model (Pneumonia Kind Detection)
- * As a result, collecting data were used to compute confusion matrix and F1 score.
- In the following images you can see Accuracy and Loss results of Pneumonia Detection (NP-CNN) model:
+The first approach is simple mult-label classification task, so that evaluation is simple as its kinds. During training session we also evaluate the model over development dataset. Additionally, at each epoch F1-score is also computed. After the training, the model parameters with the best F1-score is used for generating the confusion matrix.
+### Second Approach
+For this model, we use PH model's dataset, in wich number of healthy and Pneumonia (we did not keep pneumonia sorts uniformed here) data are equal. Consufion matrix and F1 score is computed manually, since there is not such third-party function to compute F1 score or to generate confusion matrix for this kind of task. Evaluation is done in the following manner:
+ * PH images are inferred by PH model and images are collected according to their actual label and prediction label;
+ * Images which were classified as Pneumonia at the first step, are fed into VB model in order to detect the kind of Pneumonia disease. As we did at the first step, prediction results are collected according to their actual and prediction variable.
+ * Using this information was collected through 2 steps, we generate confusion matrix and compute F1-score accordingly.
  
  <p align="center">
  <img src="np_4_loss.png" width="400" height="350">  <img src="np_4_acc.png" width="400" height="350">
