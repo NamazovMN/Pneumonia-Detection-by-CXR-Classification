@@ -21,7 +21,7 @@ The second approach works as 'divide and conquer' idea. It includes two CNN mode
 The first approach is simple mult-label classification task, so that evaluation is simple as its kinds. During training session we also evaluate the model over development dataset. Additionally, at each epoch F1-score is also computed. After the training, the model parameters with the best F1-score is used for generating the confusion matrix.
 Following figures depict loss and accuracy graphs of the approach. Even though result is satisfactory, we will improve the results in future.
 <p align="center">
- <img src="train_results/experiment_1/om/loss_plot.png" width="250" height="200">  <img src="train_results/experiment_1/om/accuracy_plot.png" width="250" height="200">
+ <img src="train_results/experiment_1/om/loss_results_plot.png" width="250" height="200">  <img src="train_results/experiment_1/om/accuracy_plot.png" width="250" height="200">
  </p>
  
 Additionally, the following figure depicts confusion matrix, which was generated on uniformly distributed dataset with 3 labels:
